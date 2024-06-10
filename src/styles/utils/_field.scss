@@ -2,8 +2,6 @@
   background: #f8f8fa;
   box-sizing: border-box;
 
-  
-
   padding: 14px 16px;
   color: #292929;
   font-size: 14px;
@@ -12,10 +10,15 @@
   line-height: 20px;
   width: 100%;
 
-  &:hover {
-    border: 1px solid #d5d7de;
+  @include hover(border, 1px solid #d5d7de);
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset;
   }
-  
+
   &:focus {
     border: 1px solid #292929;
   }

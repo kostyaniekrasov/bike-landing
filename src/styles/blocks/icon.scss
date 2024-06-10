@@ -4,7 +4,7 @@
   width: 24px;
   background-size: cover;
 
-  @include hover (transform, scale(1.2));
+  @include hover(transform, scale(1.15));
 
   @include onTablet {
     height: 32px;
@@ -51,9 +51,10 @@
   &--menu {
     background-image: url(./images/header/burger-menu.svg);
 
-    &:hover {
-      background-image: url(./images/header/burger-menu-hover.svg);
-    }
+    @include hover(
+      background-image,
+      url(./images/header/burger-menu-hover.svg)
+    );
   }
 
   &--close {

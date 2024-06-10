@@ -1,5 +1,4 @@
-# Base layout template with Gulp, SCSS and Stylelint
+Bike landing with HTML, CSS and JS.
 
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
    - [DEMO LINK](https://kostyaniekrasov.github.io/bike-landing/)
+   - [DESIGN LINK](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0-1)

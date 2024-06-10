@@ -1,5 +1,5 @@
 .header {
-  background-image: url(./images/header/cover-photo.png);
+  background-image: url(./images/header/cover-photo.webp);
   background-size: cover;
   background-position: right;
 
@@ -20,23 +20,23 @@
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -1.5px;
-  
+
     @include onTablet {
       font-size: 64px;
     }
-  
+
     @include onDesktop {
       font-size: 80px;
     }
   }
-  
+
   &__bottom {
     padding-bottom: 88px;
-  
+
     @include onTablet {
       padding-bottom: 64px;
     }
-  
+
     @include onDesktop {
       padding-bottom: 203px;
     }

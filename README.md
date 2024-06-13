@@ -22,12 +22,12 @@ The page is geared towards urban cyclists looking for high-performance, convenie
 
 **1. Clone the repository:**
 ```
-git clone https://github.com/kostyaniekrasov/museum_v2-landing.git
+git clone https://github.com/kostyaniekrasov/bike-landing.git
 ```
 
 **2. Navigate to the project directory:**
 ```
-cd museum_v2-landing
+cd bike-landing
 ```
 **3. Install the dependencies:**
 ```
